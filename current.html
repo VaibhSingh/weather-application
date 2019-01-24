@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<title>Current Weather Information</title>
+
+
+<style>
+.footer {
+   
+   left: 0;
+   bottom: 0;
+    height: 100px; 
+   width: 100%;
+   background-color: #4aa1f3;
+   color: white;
+   text-align: center;
+}
+</style>
+
+</head>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<div class = "jumbotron" style="margin-bottom:0px; color:white; background-color: #4aa1f3;">
+		<h2 class = "text-center" style="font-size: 50px; font-weight: 600;"
+		>Check the Weather</h2>
+	</div>
+
+	<br>
+	<br>
+	<div class="container" style="height: 650px;">
+		<div class="row" style = "margin-bottom:">
+			<h3 class = "text-center text-primary" style =" text-align: center;">Enter City Name</h3>
+			
+		</div>
+		<div><span id ="error"></span></div>
+		<div class = "row form-group form-inline" id ="rowDiv">
+			<input type = "text" name="city" id ="city" class ="form-control" placeholder = "City Name">
+			<button id ="submitWeather" class = "btn btn-primary">Search city</button>
+		</div>
+			<div id ="show"></div>
+			
+			</div> <br><br>
+
+			<!-- <div class="footer">
+				<div class = "container">
+					<div class = "row text-center" style ="padding-top:30px;  ">
+						<br><br>
+						<p style = "color: white; font-size: 20px ;  background-color: #4aa1f3;width:200%; height: 80px; ">
+							<br>Copyright &copy Vaibhav Singh</p>
+					</div>
+				</div>
+			</div> -->
+
+			<br><br>
+			<div class="footer">
+  <p style="font-size: 25px; font-weight:bold;"><br>Copyright &copy Vaibhav Singh</p>
+</div>
+			<script src ="weatherr.js"></script>
+			<script type="text/javascript"></script>
+			<script type="text/css"></script>
+</body>
+</html>	
